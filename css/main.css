@@ -2755,9 +2755,41 @@ section.error-404 .page-content p { font-size: 18px; margin-bottom: 30px; }
         margin: 0 auto;
         color: #fff;
     }
+    .ttm-product-image-box img{
+        height: 350px;
+        width: 100%;
+        object-fit: cover;
+    }
 }
 
+@media (min-width: 768px){
+    .p-700{
+        width: 700px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        color: #fff;
+    }
+    .ttm-product-image-box img{
+        height: 450px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+.testimonials .testimonial-img img{
+    height: 50px;
+    width: 100%;
+    object-fit: cover;
+    
+}
 .floating-wpp{
     bottom: 100px !important;
     z-index: 999;
+}
+
+.ttm-icon svg{
+    width: 100% !important;
+    height: 100%  !important;
 }

@@ -347,7 +347,7 @@ $(function () {
     $(".testimonial-slide").owlCarousel({  
         loop:true,
         margin:0,
-        smartSpeed: 3000,
+        smartSpeed: 1000,
         nav: $('.testimonial-slide').data('nav'),
         dots: $('.testimonial-slide').data('dots'), 
         autoplay: $('.testimonial-slide').data('auto'),
