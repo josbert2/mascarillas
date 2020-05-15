@@ -2867,3 +2867,13 @@ section.error-404 .page-content p { font-size: 18px; margin-bottom: 30px; }
     width: 24px!important;
     height:24px !important;
 }
+
+@media (max-width: 768px){
+    .none-margin-top{
+        margin-top: 0 !important;
+    }
+    .ttm-fid-border .layer-content{
+        padding: 20px;
+        text-align: center;
+    }
+}
