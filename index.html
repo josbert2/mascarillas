@@ -386,7 +386,7 @@
                              40% han <strong class="ttm-textcolor-skincolor">vuelto a comprar </strong> 
                         </div>
 
-                        <div class="tp-caption slide-main-text tp-resizeme " id="slide-24-layer-4" data-x="['left','left','left','center']" data-hoffset="['50','40','30','5']" data-y="['top','top','top','middle']" data-voffset="['266','286','167','0']"
+                        <div class="tp-caption slide-main-text tp-resizeme " id="slide-24-layer-4" data-x="['left','left','left','center']" data-hoffset="['50','40','30','5']" data-y="['top','top','top','middle']" data-voffset="['345','286','167','0']"
                             data-fontsize="['75','80','60','30']"
                             data-lineheight="['80','80','60','40']"
                             data-fontweight="['600','600','600','600']"
@@ -450,7 +450,7 @@
                             data-paddingleft="[0,0,0,0]">Estamos comprometidos con la  <strong class="ttm-textcolor-skincolor">sociedad </strong> 
                         </div>
 
-                        <div class="tp-caption slide-main-text tp-resizeme" id="slide-23-layer-3" data-x="['left','left','left','center']" data-hoffset="['50','40','30','5']" data-y="['top','top','top','middle']" data-voffset="['193','211','106','-40']"
+                        <div class="tp-caption slide-main-text tp-resizeme" id="slide-23-layer-3" data-x="['left','left','left','center']" data-hoffset="['50','40','30','5']" data-y="['top','top','top','middle']" data-voffset="['253','241','156','-40']"
                             data-fontsize="['60','60','60','20']"
                             data-lineheight="['80','80','55','40']"
                             data-fontweight="['600','600','600','600']"
@@ -794,7 +794,7 @@
                                             <img class="img-fluid" src="images/product/cp 2001_3.JPG" alt="">
                                         </div>
                                         <div>
-                                            <img class="img-fluid" src="images/ficha.jpg" alt="">
+                                            <img class="img-fluid" src="images/fichanueva.JPG" alt="">
                                         </div>
                                         <div>
                                             <img class="img-fluid" style="    object-fit: contain;" src="images/product/cp 2001_6.JPG" alt="">
@@ -1118,25 +1118,17 @@
                                             </div>
                                         </div>
                                         <div class="ttm-product-image-box">
-                                            <img class="img-fluid" src="images/product/not-found.png" alt="">
+                                            <img class="img-fluid" src="images/proximo.png" alt="">
                                         </div>
                                     </div><!-- ttm-product-box-inner end -->
                                     <div class="ttm-product-content">
                                         <a class="ttm-product-title" href="product-details.html">
-                                            <h2>Kit de Prevención Antiviral (En Proceso)
+                                            <h2>Kit de Prevención Antiviral 
                                                 KA- 2004
                                                 
                                                 </h2>
                                         </a>
-                                        <div class="star-ratings">
-                                            <ul class="rating">
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                            </ul>
-                                        </div>
+                                     
                                         
                                     </div>
                                     <div class='d-flex flex-column ttm-product-content'>
@@ -1285,7 +1277,7 @@
                                         <div class="ttm-product-image-box">
                                              <div class="testimonial-slide owl-carousel" data-item="1" data-nav="true" data-dots="false" data-auto="false">
                                                 <div class=''>
-                                                    <img class="img-fluid" src="images/mostrador-1.jpeg" alt="">
+                                                    <img class="img-fluid" style="object-fit: contain" src="images/mostrador-1.jpeg" alt="">
                                                 </div>
                                                 <div class=''>
                                                     <img class="img-fluid" src="images/mostrador-2.jpeg" alt="">
@@ -1712,7 +1704,29 @@ llegar a más personas”</blockquote>
         <i class="fa fa-angle-up"></i>
     </a>
     <!--back-to-top end-->
-<div id="WAButton"></div>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+<div class="nav-bottom">
+            <div class="popup-whatsapp fadeIn">
+                <div class="content-whatsapp -top"><button type="button" class="closePopup">
+                      <i class="material-icons icon-font-color">close</i>
+                    </button>
+                    <p>Hola, 😊 necesitas ayuda?</p>
+                </div>
+                <div class="content-whatsapp -bottom">
+                  <input class="whats-input" id="whats-in" type="text" Placeholder="Escribe tu mensaje" />
+                    <button class="send-msPopup" id="send-btn" type="button">
+                        <i class="material-icons icon-font-color--black">send</i>
+                    </button>
+
+                </div>
+            </div>
+            <button type="button" id="whats-openPopup" class="whatsapp-button">
+                <img class="icon-whatsapp" src="https://image.flaticon.com/icons/svg/134/134937.svg">
+            </button>
+            <div class="circle-anime"></div>
+        </div>
 </div><!-- page end -->
 
 
@@ -1756,7 +1770,7 @@ llegar a más personas”</blockquote>
 <script>
 
 $(function() {
-  $('#WAButton').floatingWhatsApp({
+  /*$('#WAButton').floatingWhatsApp({
     phone: '+52 55 6804 3965', //WhatsApp Business phone number International format-
     //Get it with Toky at https://toky.co/en/features/whatsapp.
     headerTitle: 'Chatea con nostros por WhatsApp!', //Popup Title
@@ -1766,7 +1780,7 @@ $(function() {
     //headerColor: 'crimson', //Custom header color
     //backgroundColor: 'crimson', //Custom background button color
     position: "right"    
-  });
+  });*/
 });
 
 
@@ -1786,6 +1800,36 @@ $('.whatsappapp').click(function(e){
         window.location= 'https://api.whatsapp.com/send?phone=+525568043965'
     }
 })
+popupWhatsApp = () => {
+  
+  let btnClosePopup = document.querySelector('.closePopup');
+  let btnOpenPopup = document.querySelector('.whatsapp-button');
+  let popup = document.querySelector('.popup-whatsapp');
+  let sendBtn = document.getElementById('send-btn');
+
+  btnClosePopup.addEventListener("click",  () => {
+    popup.classList.toggle('is-active-whatsapp-popup')
+  })
+  
+  btnOpenPopup.addEventListener("click",  () => {
+    popup.classList.toggle('is-active-whatsapp-popup')
+     popup.style.animation = "fadeIn .6s 0.0s both";
+  })
+  
+  sendBtn.addEventListener("click", () => {
+  let msg = document.getElementById('whats-in').value;
+  let relmsg = msg.replace(/ /g,"%20");
+    //just change the numbers "1515551234567" for your number. Don't use +001-(555)1234567     
+   window.open('https://wa.me/525568043965?text='+relmsg, '_blank'); 
+  
+  });
+
+  setTimeout(() => {
+    popup.classList.toggle('is-active-whatsapp-popup');
+  }, 3000);
+}
+
+popupWhatsApp();
 
 </script>
 </body>
