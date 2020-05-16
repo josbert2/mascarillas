@@ -3104,3 +3104,8 @@ input.whats-input[type=text]:focus {
 .icon-font-color--black {
   color: #333333;
 }
+
+
+.owl-theme .owl-controls .owl-nav div.owl-prev:hover:before, .owl-theme .owl-controls .owl-nav div.owl-next:hover:before {
+    color: #4a4a4a !important;
+}
