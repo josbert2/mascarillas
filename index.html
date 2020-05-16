@@ -1580,7 +1580,7 @@ llegar a más personas”</blockquote>
                     <div class="widget-area col-xs-12 col-sm-12 col-md-6 col-lg-4">
                         <aside class="widget widget-text">
                             <!--featured-icon-box-->
-                            <a class="featured-icon-box iconalign-before-heading whatsappapp" href="#"  target="_blank">
+                            <a class="featured-icon-box iconalign-before-heading whatsappapp" target="_blank" href="#"  target="_blank">
                                 <div class="featured-icon">
                                     <div class="ttm-icon ttm-icon_element-border ttm-icon_element-color-white ttm-icon_element-size-sm ttm-icon_element-style-square">
                                         <i class="fab fa-whatsapp"></i>
@@ -1645,7 +1645,7 @@ llegar a más personas”</blockquote>
                     <div class="widget-area col-xs-12 col-sm-12 col-md-6 col-lg-4">
                         <aside class="widget widget-text">
                             <!--featured-icon-box-->
-                            <a href="https://www.instagram.com/caretas.paagsa/" class="featured-icon-box iconalign-before-heading">
+                            <a href="https://www.instagram.com/caretas.paagsa/"  target="_blank" class="featured-icon-box iconalign-before-heading">
                                 <div class="featured-icon">
                                     <div class="ttm-icon ttm-icon_element-border ttm-icon_element-color-white ttm-icon_element-size-sm ttm-icon_element-style-square">
                                         <i class="ti-instagram"></i>
@@ -1795,9 +1795,11 @@ $('.whatsappapp').click(function(e){
     e.preventDefault()
     if($(window).width() < 768){
 
-    window.location= 'https://wa.me/+525568043965/?text=Hola'
+   
+     window.open('https://wa.me/+525568043965/?text=Hola', '_blank');
     }else{
-        window.location= 'https://api.whatsapp.com/send?phone=+525568043965'
+        window.open('https://api.whatsapp.com/send?phone=+525568043965', '_blank');
+ 
     }
 })
 popupWhatsApp = () => {
